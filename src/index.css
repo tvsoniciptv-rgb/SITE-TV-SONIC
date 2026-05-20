@@ -14,7 +14,7 @@
   body {
     @apply bg-brand-dark text-white font-sans;
     scroll-behavior: smooth;
-    background-image: linear-gradient(rgba(13, 13, 13, 0.9), rgba(13, 13, 13, 0.9)), url('/src/assets/images/tv_sonic_promotional_background_1779231675087.png');
+    background-image: linear-gradient(rgba(13, 13, 13, 0.9), rgba(13, 13, 13, 0.9)), url('/images/tv_sonic_promotional_background_1779231675087.png');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;

@@ -50,7 +50,7 @@ export default function Hero({ onNavigateChannels }: HeroProps) {
         >
           <div className="relative group block rounded-3xl overflow-hidden shadow-2xl border-2 border-brand-cyan/30 shadow-brand-cyan/20">
              <img 
-               src="/src/assets/images/tv_sonic_promotion_poster_1779238101227.png" 
+               src="/images/tv_sonic_promotion_poster_1779238101227.png" 
                alt="TV SONIC Promoção"
                className="w-full h-auto rounded-3xl transform hover:scale-105 transition-transform duration-700"
              />

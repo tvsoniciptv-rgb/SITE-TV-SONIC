@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { PlayCircle, Shield, Tv, Zap, Users, Play } from 'lucide-react';
 import { useRef, useState } from 'react';
-import posterImg from '../assets/images/tv_sonic_promotional_background_1779231675087.png';
+
 
 export default function VideoSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -98,7 +98,7 @@ export default function VideoSection() {
               </p>
               <div className="w-full max-w-md mx-auto aspect-square rounded-[2rem] overflow-hidden border-4 border-brand-cyan/50 shadow-[0_0_50px_rgba(34,211,238,0.3)]">
                 <img 
-                  src="/src/assets/images/tv_sonic_brand_logo_new_1779230340428.png" 
+                  src="/images/tv_sonic_brand_logo_new_1779230340428.png" 
                   alt="TV SONIC Brand"
                   className="w-full h-full object-cover"
                 />
@@ -115,7 +115,7 @@ export default function VideoSection() {
             controls
             playsInline
             preload="auto"
-            poster={posterImg}
+            poster="/images/tv_sonic_promotional_background_1779231675087.png"
           >
             <source src="/promo.mp4" type="video/mp4" />
           </video>

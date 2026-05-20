@@ -67,7 +67,7 @@ export default function Pricing() {
               {/* Sonic Mascot Mascot */}
               <div className="absolute -right-4 -top-4 opacity-30 group-hover:opacity-50 transition-opacity">
                 <img 
-                  src="/src/assets/images/tv_sonic_brand_logo_new_1779230340428.png" 
+                  src="/images/tv_sonic_brand_logo_new_1779230340428.png" 
                   alt="Sonic" 
                   className="w-40 h-40 object-contain"
                 />
