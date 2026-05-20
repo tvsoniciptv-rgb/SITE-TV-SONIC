@@ -1,0 +1,8 @@
+{
+  "name": "TV⚡SONIC",
+  "description": "A melhor plataforma de IPTV com mais de 2.500 canais, filmes e séries em alta definição.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
