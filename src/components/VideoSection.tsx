@@ -61,23 +61,23 @@ export default function VideoSection() {
             ></iframe>
             
             {/* Brand Watermark (Top) - Covers original generic titles */}
-            <div className="absolute top-0 left-0 right-0 p-4 bg-gradient-to-b from-black/95 via-black/80 to-transparent pointer-events-none z-20">
-              <div className="flex flex-col sm:flex-row justify-between items-start gap-4">
-                <div className="bg-brand-dark border-2 border-brand-cyan/60 px-8 py-4 rounded-2xl flex items-center gap-4 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
-                  <Play className="text-brand-cyan fill-current w-6 h-6 animate-pulse" />
-                  <span className="text-white font-black tracking-tighter text-3xl uppercase">OFICIAL TV⚡<span className="text-brand-cyan uppercase">SONIC</span></span>
+            <div className="absolute top-0 left-0 right-0 p-2 sm:p-4 bg-gradient-to-b from-black/95 via-black/80 to-transparent pointer-events-none z-20">
+              <div className="flex flex-col sm:flex-row justify-between items-center sm:items-start gap-2 sm:gap-4">
+                <div className="bg-brand-dark border sm:border-2 border-brand-cyan/60 px-4 sm:px-8 py-2 sm:py-4 rounded-xl sm:rounded-2xl flex items-center gap-2 sm:gap-4 shadow-[0_0_40px_rgba(34,211,238,0.3)]">
+                  <Play className="text-brand-cyan fill-current w-4 h-4 sm:w-6 sm:h-6 animate-pulse" />
+                  <span className="text-white font-black tracking-tighter text-lg sm:text-3xl uppercase">OFICIAL TV⚡<span className="text-brand-cyan uppercase">SONIC</span></span>
                 </div>
-                <div className="bg-brand-cyan text-black px-6 py-3 rounded-xl text-sm font-black uppercase tracking-widest shadow-xl shadow-brand-cyan/40">
+                <div className="bg-brand-cyan text-black px-4 sm:px-6 py-1.5 sm:py-3 rounded-lg sm:rounded-xl text-[10px] sm:text-sm font-black uppercase tracking-widest shadow-xl shadow-brand-cyan/40">
                   LIVE 4K ULTRA HD
                 </div>
               </div>
             </div>
 
             {/* Brand Watermark (Bottom) to cover original author credit */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 pointer-events-none z-20">
-              <div className="bg-brand-dark/95 backdrop-blur-2xl border-2 border-brand-cyan/60 px-8 py-4 rounded-full shadow-[0_0_40px_rgba(34,211,238,0.4)] flex items-center gap-4 scale-110 transform transition-transform">
-                <Play className="text-brand-cyan fill-current w-6 h-6 animate-pulse" />
-                <span className="text-white font-black tracking-tight text-xl italic">TV⚡<span className="text-brand-cyan">SONIC</span></span>
+            <div className="absolute bottom-4 sm:bottom-6 left-1/2 -translate-x-1/2 pointer-events-none z-20">
+              <div className="bg-brand-dark/95 backdrop-blur-2xl border-brand-cyan/60 px-4 sm:px-8 py-2 sm:py-4 rounded-full shadow-[0_0_40px_rgba(34,211,238,0.4)] flex items-center gap-2 sm:gap-4 scale-90 sm:scale-110 transform transition-transform border sm:border-2">
+                <Play className="text-brand-cyan fill-current w-4 h-4 sm:w-6 sm:h-6 animate-pulse" />
+                <span className="text-white font-black tracking-tight text-sm sm:text-xl italic">TV⚡<span className="text-brand-cyan">SONIC</span></span>
               </div>
             </div>
           </div>

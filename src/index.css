@@ -12,7 +12,7 @@
 
 @layer base {
   body {
-    @apply bg-brand-dark text-white font-sans;
+    @apply bg-brand-dark text-white font-sans antialiased;
     scroll-behavior: smooth;
     background-image: linear-gradient(rgba(13, 13, 13, 0.9), rgba(13, 13, 13, 0.9)), url('/images/tv_sonic_promotional_background_1779231675087.png');
     background-size: cover;

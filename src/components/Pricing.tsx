@@ -44,7 +44,7 @@ export default function Pricing() {
           <p className="text-gray-400 text-lg">Escolha o plano ideal para você e sua família.</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {plans.map((plan, idx) => (
             <motion.div
               key={plan.name}
@@ -54,9 +54,9 @@ export default function Pricing() {
               transition={{ delay: idx * 0.1 }}
               className={`p-8 rounded-3xl border ${
                 plan.recommended 
-                  ? 'bg-brand-card border-brand-cyan ring-4 ring-brand-cyan/10 scale-105' 
+                  ? 'bg-brand-card border-brand-cyan ring-4 ring-brand-cyan/10 md:scale-105 z-10' 
                   : 'bg-brand-card/50 border-white/5'
-              } flex flex-col relative overflow-hidden`}
+              } flex flex-col relative overflow-hidden h-full max-w-sm mx-auto w-full group`}
             >
               {plan.recommended && (
                 <div className="absolute top-0 right-0 bg-brand-cyan text-black px-4 py-1 font-bold text-xs rounded-bl-xl uppercase tracking-wider">

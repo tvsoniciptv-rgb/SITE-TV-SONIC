@@ -68,9 +68,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/5 pt-8 flex flex-col md:row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© {currentYear} TV⚡SONIC IPTV. Todos os direitos reservados.</p>
-          <div className="flex gap-6">
+        <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] sm:text-xs text-gray-500">
+          <p className="text-center md:text-left">© {currentYear} TV⚡SONIC IPTV. Todos os direitos reservados.</p>
+          <div className="flex gap-4 sm:gap-6">
             <a href="#" className="hover:text-brand-cyan">Termos de Uso</a>
             <a href="#" className="hover:text-brand-cyan">Privacidade</a>
           </div>
